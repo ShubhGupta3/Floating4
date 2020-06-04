@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homePage">
+    <fragment
+        android:id="@+id/homePage"
+        android:name="com.example.floating.HomePage"
+        android:label="fragment_home_page"
+        tools:layout="@layout/fragment_home_page" >
+        <action
+            android:id="@+id/action_homePage_to_page1"
+            app:destination="@id/page1" />
+    </fragment>
+    <fragment
+        android:id="@+id/page1"
+        android:name="com.example.floating.Page1"
+        android:label="Page1"
+        tools:layout="@layout/fragment_page1" >
+        <action
+            android:id="@+id/action_page1_to_goodFriend"
+            app:destination="@id/goodFriend" />
+        <action
+            android:id="@+id/action_page1_to_stories"
+            app:destination="@id/stories" />
+        <action
+            android:id="@+id/action_page1_to_aboutMe"
+            app:destination="@id/aboutMe" />
+        <action
+            android:id="@+id/action_page1_to_friendList"
+            app:destination="@id/friendList" />
+        <action
+            android:id="@+id/action_page1_to_frnCheck"
+            app:destination="@id/frnCheck" />
+        <action
+            android:id="@+id/action_page1_to_badFriendList"
+            app:destination="@id/badFriendList" />
+    </fragment>
+    <fragment
+        android:id="@+id/goodFriend"
+        android:name="com.example.floating.GoodFriend"
+        android:label="GoodFriend"
+        tools:layout="@layout/fragment_good_friend" />
+    <fragment
+        android:id="@+id/stories"
+        android:name="com.example.floating.Stories"
+        android:label="Stories"
+        tools:layout="@layout/fragment_stories" >
+        <action
+            android:id="@+id/action_stories_to_potterSto"
+            app:destination="@id/potterSto" />
+        <action
+            android:id="@+id/action_stories_to_judySto"
+            app:destination="@id/judySto" />
+        <action
+            android:id="@+id/action_stories_to_sherSto"
+            app:destination="@id/sherSto" />
+        <action
+            android:id="@+id/action_stories_to_frenSto"
+            app:destination="@id/frenSto" />
+        <action
+            android:id="@+id/action_stories_to_boyleSto"
+            app:destination="@id/boyleSto" />
+        <action
+            android:id="@+id/action_stories_to_sheldonSto"
+            app:destination="@id/sheldonSto" />
+    </fragment>
+    <fragment
+        android:id="@+id/potterSto"
+        android:name="com.example.floating.PotterSto"
+        android:label="PotterSto"
+        tools:layout="@layout/fragment_potter_sto" />
+    <fragment
+        android:id="@+id/sherSto"
+        android:name="com.example.floating.SherSto"
+        android:label="SherSto"
+        tools:layout="@layout/fragment_sher_sto" />
+    <fragment
+        android:id="@+id/boyleSto"
+        android:name="com.example.floating.BoyleSto"
+        android:label="BoyleSto"
+        tools:layout="@layout/fragment_boyle_sto" />
+    <fragment
+        android:id="@+id/sheldonSto"
+        android:name="com.example.floating.SheldonSto"
+        android:label="SheldonSto"
+        tools:layout="@layout/fragment_sheldon_sto" />
+    <fragment
+        android:id="@+id/frenSto"
+        android:name="com.example.floating.FrenSto"
+        android:label="FrenSto"
+        tools:layout="@layout/fragment_fren_sto" />
+    <fragment
+        android:id="@+id/judySto"
+        android:name="com.example.floating.JudySto"
+        android:label="JudySto"
+        tools:layout="@layout/fragment_judy_sto" />
+    <fragment
+        android:id="@+id/aboutMe"
+        android:name="com.example.floating.aboutMe"
+        android:label="aboutMe"
+        tools:layout="@layout/fragment_about_me" />
+    <fragment
+        android:id="@+id/friendList"
+        android:name="com.example.floating.FriendList"
+        android:label="FriendList"
+        tools:layout="@layout/fragment_friend_list" />
+    <fragment
+        android:id="@+id/frnCheck"
+        android:name="com.example.floating.FrnCheck"
+        android:label="FrnCheck"
+        tools:layout="@layout/fragment_frn_check" >
+        <action
+            android:id="@+id/action_frnCheck_to_checkBadFrn"
+            app:destination="@id/checkBadFrn"
+            app:popUpTo="@id/frnCheck"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_frnCheck_to_checkGoodFrn"
+            app:destination="@id/checkGoodFrn"
+            app:popUpTo="@id/frnCheck"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/checkGoodFrn"
+        android:name="com.example.floating.CheckGoodFrn"
+        android:label="CheckGoodFrn"
+        tools:layout="@layout/fragment_check_good_frn" >
+        <action
+            android:id="@+id/action_checkGoodFrn_to_frnCheck"
+            app:destination="@id/frnCheck"
+            app:popUpTo="@id/page1" />
+        <action
+            android:id="@+id/action_checkGoodFrn_to_friendList"
+            app:destination="@id/friendList" />
+    </fragment>
+    <fragment
+        android:id="@+id/checkBadFrn"
+        android:name="com.example.floating.CheckBadFrn"
+        android:label="CheckBadFrn"
+        tools:layout="@layout/fragment_check_bad_frn" >
+        <action
+            android:id="@+id/action_checkBadFrn_to_frnCheck"
+            app:destination="@id/frnCheck"
+            app:popUpTo="@id/page1" />
+        <action
+            android:id="@+id/action_checkBadFrn_to_badFriendList"
+            app:destination="@id/badFriendList" />
+    </fragment>
+    <fragment
+        android:id="@+id/badFriendList"
+        android:name="com.example.floating.BadFriendList"
+        android:label="BadFriendList"
+        tools:layout="@layout/fragment_bad_friend_list"/>
+</navigation>

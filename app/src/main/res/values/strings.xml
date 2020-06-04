@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">FriendLock</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_title">Welcome to the World of <i>Friendlock</i>!</string>
+    <string name="button_friendship">Friendship Stories</string>
+    <string name="btn_spy">Check your Friendship</string>
+    <string name="btn_self">Are you a good friend?</string>
+    <string name="btn_good">List of good friend(s)</string>
+    <string name="btnStart"><i>Dive In</i></string>
+    <string name="btn_meFriend">Can I be your Friend?</string>
+    <string name="goodfrntxt">Do you qualify as a <u>Good Friend</u>?</string>
+    <string name="goodfrndes">
+        Some people have an easier time establishing and maintaining friendships than others. And some of us long for closer friendships or try to figure out why an existing or promising relationship fizzled out. In these cases, we may jump first to judge a friend’s behavior, rather than our own. Perhaps we forget that relationships rely on mutual interactions. It is important, them, to examine our own contribution to the dynamics of a friendship. It is only our own behavior that we can change, and there are certain personal characteristics it\'s essential to cultivate to build healthy, lasting friendships.
+        \n\n<b>The 13 Essential Friendship Traits:</b>\n\nHow much do you agree with each statement?\n\n1)I am trustworthy.\n2)I am honest with others.\n3)I am generally very dependable.\n4)I am loyal to the people I care about.\n5)I am easily able to trust others.\n6)I experience and express empathy for others.\n7)I am able to be non-judgmental.\n8)I am a good listener.\n9)I am supportive of others in their good times.\n10)I am supportive of others in their bad times.\n11)I am self-confident.\n12)I am usually able to see the humor in life.\n13)I am fun to be around.\n\nIf you find that you disagree with many of the statements, you may struggle to develop meaningful, lasting friendships.
+    </string>
+    <string name="story_heading">The <i><b>BEST</b></i> among the best of friends!</string>
+    <string name="potter_des"><u>Harry Potter, Hermione Granger and Ron Weasley from <i>Harry Potter Series</i></u></string>
+    <string name="sheldon_des"><u>Sheldon and Leonard from <i>The Big Bang Theory</i></u></string>
+    <string name="sherlock_des"><u>Sherlock Holmes and John Watson from <i>Sherlock Holmes</i></u></string>
+    <string name="joey_des"><u>Chandler, Monica, Joey, Phoebe, Ross, Rachel from <i>F.R.I.E.N.D.S</i></u></string>
+    <string name="boyle_des"><u>Jake Peralta and Charles Boyle from <i>Brooklyn 99</i></u></string>
+    <string name="judy_des"><u>Jake Peralta and Doug Judy from <i>Brooklyn 99</i></u></string>
+    <string name="potthead">The TRIO of Harry Potter</string>
+    <string name="potsto">
+        True friends are able to back you up no matter what, even when the rest of the world turns their back on you. In Harry Potter and the Order of Phoenix, everyone at Hogwarts and in the magical universe seemed to hop on the bandwagon with the belief that Harry Potter was a liar.\nWhen Harry tried to tell everyone that Lord Voldemort was back, no one wanted to believe him. Luckily, Harry had Ron and Hermione to stick up for him, and they believed every word he said about the dark lord\'s return. Whenever someone would call Harry a liar who was just seeking attention, Ron and Hermione would defend Harry regardless of what others thought, even if it would hurt their friendships outside of the golden trio. Now that\'s true friendship.
+    </string>
+    <string name="shelsto">It was quite obvious that both Sheldon and Leonard considered the problems of the other to be silly, with Leonard\’s relationship trouble having no meaning to Sheldon while the latter\’s problems were always about things that weren\’t even an issue.\nHowever, they always did make time to listen to each other.\nLeonard understood most of the time that Sheldon\’s problems, while not being a big deal, did matter to him and respected that. Sheldon, on the other hand, put aside his dislike of relationship issues and would turn out to be helpful without even realizing it.\nThis is how they knew that they had each other\’s backs.</string>
+    <string name="frensto">The one with the group. The group that formed gradually throughout the years. The group that has their own table at Central Perk. The group that has formed the closest bond and has been through break ups and marriages, births and birthdays. The group that has an eventful Thanksgiving every year. The group that deals with their faults and communicates. It\’s the group that we will all form at some point in our lives. As we go through college we will meet countless people; some we will form a bond with and others will leave. It\’s a fact of life. We just got to wait and let the friend group form naturally. You\’ll get your group.</string>
+    <string name="shersto">Sherlock Holmes and Dr. Watson have been seen as the ultimate partners for as long as they have been in print. Their relationship is far deeper than anything that meets the eye; they mean more to each other than just a business partner or friend.\nNo matter what Watson and Holmes mean to each other, both men seem to follow certain trends throughout the story.\nEach man contributes to one certain feeling in the tales.Even though sometimes Watson strays to make a comment or two about Holmes and his laziness or what not, he always comes back to praise him again.</string>
+    <string name="boylesto">Jake Peralta and Charles Boyle are detectives at the 99th precinct. They are very close friends; Charles even asks Jake to be the best man at his wedding to Vivian.\nJake asks Charles to be his best man, or \"B.M.\" for short.\n\nThroughout the show, Jake and Charles have a habit of giving each other high fives without having to look at the other person.\nAlso their duet and dance is THE BEST.</string>
+    <string name="judysto">Although Doug Judy is on the run and Jake knows he\'s a criminal, the goofy detective still keeps in touch with Diane, Doug\'s mom. Whenever Doug makes his way back into Jake\'s life, Jake and Doug always talk about her. Jake never fails to mention how much he loves Doug\'s mom.\nJake gets word that Doug Judy is dead and attends his funeral, where he keeps up his pretense as Doug\'s assistant Mangy Carl. Doug\'s sister asks Jake to sing at his funeral, but Jake is hesitant at first. When given the alternative to talk about how Doug took him in and away from a life of prostitution, Jake takes the option to sing instead. </string>
+    <string name="sherrhead">The Baker Street Boys</string>
+    <string name="boyle_quote"><b><i>\"What are you going to do with all the hunch, all that hunch inside your brain? Were going to solve, solve, solve this case. Solve this right in your face.\"</i></b></string>
+    <string name="fren_quote"><b><i>\"I\'ll be there for you.\"</i></b></string>
+    <string name="boylehead">The 99th precinct mates</string>
+    <string name="pott_quote"><b><i>\“Books and cleverness! There are more important things - FRIENDSHIP AND BRAVERY.\”</i></b></string>
+    <string name="sher_quote"><b><i>\"John, I don\'t have friends, I have ONE!\"</i></b></string>
+    <string name="frenhead"><b><i>The one with The Group.</i></b></string>
+    <string name="judy_quote"><b><i>\"We come together \'cause opposites attract.\"</i></b></string>
+    <string name="judyHead">The Friendship of Irony!</string>
+    <string name="shelHead">The Friendship with a Contract!</string>
+    <string name="shel_quote"><b><i>(Just imagine Sheldon hugging Leonard)</i></b></string>
+    <string name="me_name">Shubh Gupta</string>
+    <string name="me_des">
+        Hi, I am Shubh, a first year undergrad student of Engineering. I like to call myself <i>FloatingPhantom</i>(I don\'t know why). I completed my schooling from Delhi and pursuing higher education in Delhi only.
+         Which means yes, I am a proper Delhiite.\nI have a knack of learning new things, which is why I have taken up this course, having zero knowledge of java or development.
+        \n\nI like to consider myself a Sports Enthusiast. As an Indian, you always have a soft corner for cricket. As for other sports, I am a table tennis player myself, and also a fan of football.
+        I support FC Barcelona and of course, I stan Lionel Messi, the greatest ever.\n\nIf you think we have some things in common, let us vibe together, because why not?\n\n<i>Instagram ID: </i>@floatingphantom
+    </string>
+    <string name="frn1"><i>Enter name of first close friend.</i></string>
+    <string name="frn2"><i>Enter name of second close friend.</i></string>
+    <string name="frn3"><i>Enter name of third close friend.</i></string>
+    <string name="frn4"><i>Enter name of fourth close friend.</i></string>
+    <string name="frn5"><i>Enter name of fifth close friend.</i></string>
+    <string name="frn6"><i>Enter name of sixth close friend.</i></string>
+    <string name="frn7"><i>Enter name of seventh close friend.</i></string>
+    <string name="frn8"><i>Enter name of eighth close friend.</i></string>
+    <string name="frn9"><i>Enter name of ninth close friend.</i></string>
+    <string name="frn10"><i>Enter name of tenth close friend.</i></string>
+    <string name="listHead"><b>List of Good Friends</b></string>
+    <string name="btn_badd">List of not-so-good Friends</string>
+    <string name="list_des">Please add the name of your good friend in the blank below and press the Add button to enter it into the List.</string>
+    <string name="frncheck_question">Friendship Trivia (%1$d/%2$d)</string>
+    <string name="resultpos">Friendship Police is here to tell you that your friend is perfect.\n\nKeep him/her close to yourself</string>
+    <string name="btn_result">Check for another Friend</string>
+    <string name="add_frn">Add friend to list of Good Friends</string>
+    <string name="resultneg">Friendship Police detects that your friend hasn\'t been good to you.\n\nTry and maintain some distance! </string>
+    <string name="home_page">Welcome</string>
+    <string name="xd">Stories</string>
+    <string name="dev">About Developer</string>
+    <string name="resultpos_title">Congratulations</string>
+    <string name="resultneg_title">Warning</string>
+    <string name="select">Select An Option</string>
+    <string name="list_header">Here is your friend list.</string>
+    <string name="btn_add">Add</string>
+    <string name="btn_clear">Clear List</string>
+    <string name="add_name"><i>Add a name</i></string>
+    <string name="badList_head">List of not-so-good friends</string>
+    <string name="badList_des">Please add the name of your not-so-good friend in the blank below and press the Add button to enter it into the List.</string>
+    <string name="addBadList">Add to list of not-so-good friends</string>
+    <string name="list_header_bad">Here is the list of not-so-good friends.</string>
+    <string name="checkQuote"><i>Think of a friend and complete the game. </i></string>
+</resources>
